@@ -10,7 +10,7 @@ lowerBound= int(input("Input Lower Bound:"))
 upperBound = int(input("Input Upper Bound:"))
 minimum= int(input("Input How Many Tries:"))
 
-randomNumber = int (random.randrange(lowerBound,upperBound))
+randomNumber = int (random.randrange(lowerBound,upperBound+1))
 
 print ("                Start Guessing              ")
 userguess =int(input("Guess a Number:"))
